@@ -436,3 +436,5 @@ class Product:
 # Table Products_i18n
 
 
+class Test:
+    pass
