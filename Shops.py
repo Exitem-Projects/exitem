@@ -8,7 +8,7 @@ Created on 26 Feb 2017
 from enum import Enum
 
 
-class Languages:
+class Language:
     def __init__(self, name, native_name, iso_693_1_code, iso_693_2_code):
         self.name = name
         self.native_name = native_name
@@ -185,20 +185,20 @@ class User: # Unique Key
 
 class Shop: # Foreign key
     def __init__(self, name, user):
-         self.name = name
-         self.user = user
+        self.name = name
+        self.user = user
 
     def set_name(self, name):
-         self.name = name
+        self.name = name
 
     def get_name(self):
-         return self.name
+        return self.name
 
     def set_user(self, user):
-         self.user = user
+        self.user = user
 
     def get_user(self):
-         return self.user
+        return self.user
 
     def __str__(self):
         return self.get_name() + " (" + self.get_user() + ")"
@@ -222,5 +222,5 @@ class Product:
 # Table Products_i18n
 
 
-class
+
 
