@@ -6,6 +6,9 @@ class Test:
     def __init__(self):
         pass
     
+    def changed_method(self):
+        pass
+    
     def set_pk(self, pk):
         self.pk = pk
     
