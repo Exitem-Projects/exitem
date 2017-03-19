@@ -1,0 +1,56 @@
+<!doctype>
+<html lang="en"> 
+     <head>
+       <meta charset="utf-8" />
+        <meta name="application-name" content="exitem" > 
+        <meta name="description" content="exitem's website'">
+        <meta name="generator" content="">
+        <meta name="keywords" content="belgium, belgië, nightshop, nachtwinkel, nachtwinkels antwerpen, specialiteiten, perzisch, perziche, producten, items, shopping ">
+        <meta name="author" content="Mvers">
+        <title>Exitem</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript">
+        function active(){
+        var searchBar = document.getElementById('searchBar');
+        if (searchBar.value == 'e.g. Antwerpen 2000...' ){
+            searchBar.value = ''
+            searchBar.placeholder = 'e.g. Antwerpen 2000...'
+        }
+        }
+        </script>
+        
+    </head>
+    
+    <body>   
+        <header>
+        <figure><img src="images/headlogo.png" alt="logo van Exitem" style="width: 100px; height: 100px;">
+        <figcaption>Exotic items, Exciting search experience</figcaption>
+        </figure>
+        </header>
+     
+        <h1>Find your favorite items right now!</h1>
+
+         <form action="search.php" method="post">
+            <input type = "text" id = "searchBar" placeholder ="" value="e.g. Antwerpen 2000..." maxlength="25" autocomplete="on" onmousedown="active();" onblur=""/>
+            <input type="submit" id="seachtBtn" value="Go!"/>
+             </form>
+<footer>
+    <div>   
+    <aside>
+    
+        
+             <p><h2>Social Media</h2></p>
+           <ul><li>Facebook</li>
+           <li>Instagram</li>
+           <li>Twitter</li>
+           </ul>    
+            <h4>
+                For questions or technical support please e-mail
+                    <a href="mailto:suppport@xxx.com"> support@xxx.com</a>
+                      </h4>       
+           
+     </div>            
+</aside>
+</footer>
+    </body>
+     </html>
