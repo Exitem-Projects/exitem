@@ -7,5 +7,3 @@ THIS FOLDER SHOULD CONTAIN ALL DATA AND LISTS FOR PROSPECTION
 ################################################################################
 
 SAP International ;)
-
-ABC Shop
